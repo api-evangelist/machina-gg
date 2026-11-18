@@ -1,4 +1,4 @@
-# machina-gg
+# Machina Sports
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-machina-gg is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://machina.gg/
+Machina Sports is a sports AI agent platform enabling verified live sports workflows. Founded in 2023 and operated by GeniusTech Corporation, it provides tools for building, testing, and routing sports AI agents across broadcasting, betting, and team contexts. The platform integrates approved data, content, and AI to create fan experiences, matchday content, and operational tools, with open-source SDKs and public APIs documented for developers.
+
+**Areas:** Sports · AI · Platform · SportsAI · Developer
+
+## Machina Sports on APIs.io
+
+Everything profiled for Machina Sports is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/machina-gg/](https://apis.io/providers/machina-gg/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Machina Sports Forecast Signals API](https://apis.io/apis/machina-gg/machina-gg-forecast-signals-api/) — Dixon-Coles probabilities, model-vs-market differences, de-vigged probabilities, and historical backtests for informational research. No selection, ranking,…
+- [Machina Sports Intelligence API](https://apis.io/apis/machina-gg/machina-gg-intelligence-api/) — Grounded briefs, price-move explanations, fan sentiment, and model-vs-market differences, with sources, confidence, and caveats. Informational research…
+- [Machina Sports Markets API](https://apis.io/apis/machina-gg/machina-gg-markets-api/) — Search Kalshi and Polymarket in one normalized shape, with live order-book depth, price history, and movers.
+- [Machina Sports Match Context API](https://apis.io/apis/machina-gg/machina-gg-match-context-api/) — Resolve any provider id to a canonical entity, then pull fixtures, standings, squads, injuries, and enriched match context.
+- [Machina Sports Skills API](https://apis.io/apis/machina-gg/machina-gg-skills-api/) — Composite, grounded, source-cited cards, served fresh from cache or authored on demand. Work in Claude and any AI agent.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Machina Sports Agentic Access](https://apis.io/agentic-access/machina-gg/machina-gg-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BacktestResponse](https://apis.io/schemas/machina-gg/machina-gg-backtest-response/)
+- [EventContextResponse](https://apis.io/schemas/machina-gg/machina-gg-event-context-response/)
+- [FixtureSelector](https://apis.io/schemas/machina-gg/machina-gg-fixture-selector/)
+- [ForecastResponse](https://apis.io/schemas/machina-gg/machina-gg-forecast-response/)
+- [SpotlightResponse](https://apis.io/schemas/machina-gg/machina-gg-spotlight-response/)
+- [SquadsResponse](https://apis.io/schemas/machina-gg/machina-gg-squads-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Machina Gg Context](https://apis.io/jsonld/machina-gg/machina-gg-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Machina Sports API Rules](https://apis.io/rules/machina-gg/machina-gg-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Machina Sports Authentication](https://apis.io/security/machina-gg/machina-gg-authentication/)
+- [Machina Sports Domain Security](https://apis.io/security/machina-gg/machina-gg-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Machina Sports Plans Pricing](https://apis.io/plans/machina-gg/machina-gg-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://machina.gg/)
+- [Documentation](https://docs.machina.gg/)
+- [Getting started](https://docs.machina.gg/quickstart/overview)
+- [Pricing](https://machina.gg/pricing)
+- [Support](https://machina.gg/contact)
+- [Blog](https://machina.gg/blog)
+- [Terms of service](https://machina.gg/tos)
+- [Privacy policy](https://machina.gg/privacy-policy)
+- [GitHub](https://github.com/machina-sports)
+- [Status](https://status.machina.gg)
+
+## API Evangelist rating
+
+**Kin Score 59.2** — strong · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 64.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 19.0 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 51.5 |
+
+**Agent readiness 44.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/machina-gg/](https://apis.io/providers/machina-gg/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Machina Sports: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/machina-gg/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
